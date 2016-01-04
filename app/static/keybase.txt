@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/bvalosek
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://bvalosek.com
+  * I am bvalosek (https://keybase.io/bvalosek) on keybase.
+  * I have a public key with fingerprint 1543 A5D2 3F4A 3D73 4748  2916 4983 6DBF 3D34 69F5
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101936c3a02966edf66d122fcef6b0ceb9562d3aea481c0da55c6a01788801f7a2d0a",
+            "fingerprint": "1543a5d23f4a3d734748291649836dbf3d3469f5",
+            "host": "keybase.io",
+            "key_id": "49836dbf3d3469f5",
+            "kid": "0101936c3a02966edf66d122fcef6b0ceb9562d3aea481c0da55c6a01788801f7a2d0a",
+            "uid": "054ef9747ffb10cbe8c24d63ba7f4700",
+            "username": "bvalosek"
+        },
+        "service": {
+            "hostname": "bvalosek.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1450474990,
+    "expire_in": 157680000,
+    "prev": "aed1f8b3e5f1900332d76bab1896503787d309026586af595bdbc44fbe7a0cb6",
+    "seqno": 32,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtkm1QVFUYx5fFKOlNlKICEa/SGm5431+2EJhenFVwHChQxma5955z4cayd927
+u7guL80QM4lkFCs5hCWFYhKOEJOt2VijwSQwIk5YidhUuEMjSzZCzbBA91p9afrY
++XLmPOf3/5//88xpvD/aYIyy1pafzSDlmaiBScFQ4K6O8SOCAnyIxY+UwTsbtAOo
+um1lMkAsCIqhGEfQIsGjOEfTEEg0DTAcl0Qo0QIqQoGjaBwQPORJFhNRwFOUSPMo
+xrAsi2ISw+MA5REzIsmOEuhyumSHW7PFKJLgKYATEskTgCFIhmRxDqNJjiVoIEgE
+IEiakyhNWKqoukILJ/AqTJcVraYdbHfi/Qf/P+f2/GVHkVDiGJKRJAFDRQGyIk4C
+mhB4RiIZFNVBFbocfDnUaMHL2xUVliFVZkSremUR6oPVO/kXkS4q5ZrW6VLciqjY
+tZtSt9upWnSl2+fU0Qoo2P42sQmyA2hz1BRe6FJlxYFYMI0U3bLuipEUqg2S41Az
+Anc7ZRe0yTpBMTSLakt/B3o1Sx4CTGKFHQSkJIxDUYLAAUMLvICxHE2hBMMygEA5
+FKcpluYliqMEIIgkKQmQ4bXuaUTva5dDQSwErgXlSzRTVS5x8G6PCyJVsXuNSUsM
+UUZDzF1G/YsZYpcu++ffHXpmmaE5PHrO5PJFWrasNVX/XOUPjvdlo+7ZvFnZ5JV6
+Ql1Xv4kLLb1IpZQnT12P75io8a9+oDuxf3Z704Ybz4PXfj2PhNvj23srW2pYU23e
+3YszcXnlR7NPKMsH65uZjupHI32XeHZPwk/5kfbd6n32gQP5znU3D2zqWL+OvljV
+5ynIXcyOaWHekCxWZ1KOOCxf4g2hlS/1BF6vfGsnt+qV6fXc1t9jt/pH5uLD5Ia5
+keo91s9O+qbxD0+QWGpN/ttHDh9z5F/I3Azi/K2ph0CwbklxdHr43YT5bQ+FTCsq
+8Rvfz79Z+/JTzbdHKv9YiEs5GntwbMvDQ+a0/a2G2VdXh1ofp62dTK4n2jrWNnUz
+uTD+l6wv41K/zuxtF4/sYGrJw/jlwIpzV24HPsmvbJmc2utrONjljx56eqEonsvo
+7M0Z9NQUxri6vW3GawlrN/lqJja/EBlc8Kzq2ne1wt772GT26eNnqn6zfXXq8+Vf
+rNzVz15pWNz5ZFNrT+nGjCGrz9Q3kKrWp43PBIZHDS1FyWfGqz1dDwbnbv34MVdf
+uP85+6dDOXhauOT0d7FFxkeQicu24IudJ9/Zfs0ZeD/znmIQmA/KKWfN3RuJj7Cs
+JxLXDE/XBjKePd6Ye+t63qk29Rhyvr/JWPfBhQhM+LYgadviVGS0LPjDe8X3NlaM
+ZUXDfXVrZhIb/gQ=
+=Qh+G
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bvalosek
+
+==================================================================
+

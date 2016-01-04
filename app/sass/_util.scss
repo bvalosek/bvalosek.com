@@ -1,0 +1,27 @@
+@mixin clearfix {
+  &::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+}
+
+// Responsive style. Keep a div @p wide until @w pixels. Float when big enough
+// to stack
+@mixin floatAt($p:50%, $w:640px)
+{
+  width: 100%;
+
+  @media (min-width: $w) {
+    width: $p;
+    float: left;
+  }
+}
+
+// Ensure that content's width doesnt excede @w, centered
+@mixin bounded($w:1024px) {
+    width: 100%;
+    margin: 0 auto;
+    max-width: $w;
+}
+

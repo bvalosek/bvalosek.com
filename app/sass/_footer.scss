@@ -1,0 +1,86 @@
+footer {
+  .container {
+    @include clearfix;
+    @include bounded;
+    background: white;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .the-bottom {
+    background: #333;
+    section {
+      @include clearfix;
+      @include bounded;
+      background: #666;
+      font-size: 0.8em;
+      padding: 0 5px 20px;
+      @media (min-width: 640px) {
+        padding: 10px 20px 20px 20px;
+      }
+    }
+
+    a {
+      border-bottom: none;
+      color: #ccc;
+    }
+
+    .copyright, .version, .gpg {
+      @include floatAt(50%, 640px);
+      text-align: center;
+      color: #aaa;
+      padding-top: 10px;
+    }
+
+    .version {
+      @media (min-width: 640px) {
+        text-align: right;
+      }
+
+      .tag {
+        color: #ccc;
+      }
+    }
+
+    .copyright, .gpg {
+      @media (min-width: 640px) {
+        text-align: left;
+      }
+    }
+
+    .gpg {
+      @include floatAt(100%, 640px);
+      a.dl {
+        color: #aaa;
+        border-bottom: solid 2px #888;
+        padding-bottom: 1px;
+      }
+
+      i {
+        opacity: 0.5;
+        padding: 0 2px 0 0;
+        position: relative;
+        top: 1px;
+      }
+
+      .fpr {
+        display: block;
+        margin-top: 10px;
+        @media (min-width: 640px) {
+          display: inline;
+        }
+
+        a:hover {
+          color: white;
+        }
+
+        padding: 0 0 0 5px;
+        font-size: 0.7em;
+        color: #ccc;
+        font-family: "DejaVu Sans Mono", Menlo, Consolas, "Liberation Mono", Monaco, "Lucida Console", monospace;
+      }
+    }
+
+  }
+}
+

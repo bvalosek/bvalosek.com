@@ -1,0 +1,56 @@
+$breakpoint: 750px;
+
+main {
+  section {
+    color: white;
+    @include clearfix;
+    @include bounded;
+    line-height: 1.5;
+
+    .realtalk {
+      @include floatAt(45%, $breakpoint);
+      font-size: 1.2em;
+      padding: 20px;
+    }
+
+    .deets {
+      @include floatAt(35%, $breakpoint);
+      opacity: 0.6;
+      padding: 20px;
+    }
+
+    .big-icon {
+      @include floatAt(20%, $breakpoint);
+      text-align: center;
+
+      padding: 32px 0;
+
+      i {
+        font-size: 5em;
+      }
+    }
+  }
+}
+
+.bio {
+  background: #99bcdd*0.4;
+  section {
+    background: #99bcdd*0.5;
+  }
+}
+
+.values {
+  background: #99bcdd*0.7;
+  section {
+    background: #99bcdd*0.9;
+  }
+}
+
+.profesh {
+  background: lighten(#384e54, 10%);
+  section {
+    background: lighten(#384e54, 20%);
+  }
+}
+
+

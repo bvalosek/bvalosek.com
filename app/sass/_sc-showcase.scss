@@ -1,0 +1,49 @@
+
+.sc-bg, .sc-bg-image {
+  z-index: -10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.sc-bg {
+  background: black;
+  z-index: -20;
+}
+
+.sc-bg-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  opacity: 0.2;
+  // -webkit-filter: blur(30px) brightness(0.5);
+}
+
+nav.sc-showcase {
+  background: rgba(0,0,0,.5);
+  color: #555;
+  a:hover {
+    color: white;
+  }
+}
+
+iframe.sc-showcase {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: none;
+  
+
+  @media (min-width: 800px) and (min-height: 800px) {
+    left: 50%;
+    top: 50%;
+    margin-top: -400px;
+    margin-left: -400px;
+    height: 800px;
+    width: 800px;
+  }
+}
