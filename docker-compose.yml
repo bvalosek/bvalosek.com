@@ -1,5 +1,5 @@
 web:
-  build: ./
+  image: bvalosek/bvalosek.com
   ports:
     - "8000"
   environment:
