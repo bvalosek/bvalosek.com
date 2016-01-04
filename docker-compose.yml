@@ -1,6 +1,4 @@
 web:
   image: bvalosek/bvalosek.com
-  ports:
-    - "8000"
   environment:
-    VIRTUAL_ENV: "*.bvalosek.com"
+    VIRTUAL_HOST: bvalosek.com,www.bvalosek.com
