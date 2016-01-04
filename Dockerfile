@@ -1,17 +1,18 @@
 FROM node:5.3
 MAINTAINER Brandon Valosek <bvalosek@gmail.com>
 
-ENV PORT 25739
+ENV PORT 8000
 EXPOSE ${PORT}/tcp
 
 ENV APP_BASE /opt/bvalosek.com
+RUN mkdir -p $APP_BASE/app
+
 WORKDIR ${APP_BASE}
 
-RUN mkdir -p $APP_BASE/app
 COPY ./package.json ./
 RUN npm install
 
-COPY ./server/app ./app
+COPY ./app ./app
 
 CMD ["npm", "start"]
 
