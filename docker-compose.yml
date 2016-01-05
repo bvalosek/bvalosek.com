@@ -1,4 +1,4 @@
 web:
   image: bvalosek/bvalosek.com
   environment:
-    VIRTUAL_HOST: bvalosek.com,www.bvalosek.com
+    VIRTUAL_HOST: bvalosek-personal-site.*,bvalosek.com,www.bvalosek.com
