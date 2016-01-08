@@ -14,5 +14,8 @@ RUN npm install
 
 COPY ./app ./app
 
+COPY ./gulpfile.js ./
+RUN npm run build
+
 CMD ["npm", "start"]
 
