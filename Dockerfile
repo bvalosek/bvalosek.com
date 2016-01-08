@@ -1,7 +1,7 @@
 FROM node:5.3
 MAINTAINER Brandon Valosek <bvalosek@gmail.com>
 
-ENV PORT 8000
+ENV PORT 80
 EXPOSE ${PORT}/tcp
 
 ENV APP_BASE /opt/bvalosek.com

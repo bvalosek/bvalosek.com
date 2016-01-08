@@ -3,7 +3,7 @@ var favicons = require('connect-favicons');
 var exphbs = require('express-handlebars');
 var version = require('../package.json').version;
 var path = require('path');
-
+var os = require('os');
 
 // TODO: remove this damn node app and just make this a jekyll site served by
 // nginx
@@ -25,10 +25,10 @@ app.set('view engine', '.hbs.html');
 // cute icons
 app.use(favicons(path.join(__dirname, './icons')));
 
-
 app.get('/', function (req, res) {
   var year = new Date().getFullYear();
-  res.render('index', {version, year});
+  var hostname = os.hostname();
+  res.render('index', {hostname, version, year});
 });
 
 // everything else is static
