@@ -1,0 +1,9 @@
+web:
+  image: bvalosek/bvalosek.com:latest
+  restart: on-failure
+  environment:
+    KONTENA_LB_VIRTUAL_HOST: bvalosek.com,www.bvalosek.com
+    KONTENA_LB_INTERNAL_PORT: 10555
+    PORT: 10555
+  external_links:
+    - lb2
