@@ -2,7 +2,7 @@ web:
   image: bvalosek/bvalosek.com:latest
   restart: on-failure
   environment:
-    KONTENA_LB_VIRTUAL_HOSTS: bvalosek.com,bvalosek-personal-site.phatnode.net
+    KONTENA_LB_VIRTUAL_HOSTS: bvalosek.com
     KONTENA_LB_INTERNAL_PORT: 8000
     PORT: 8000
   external_links:
