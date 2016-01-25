@@ -6,7 +6,7 @@ machine:
 
 dependencies:
   pre:
-    gem install kontena-cli
+    - gem install kontena-cli
   override:
     - docker info
     - docker build -t bvalosek/bvalosek.com .
