@@ -1,8 +1,12 @@
 machine:
   services:
     - docker
+  ruby:
+    version: 2.1.4
 
 dependencies:
+  pre:
+    gem install kontena-cli
   override:
     - docker info
     - docker build -t bvalosek/bvalosek.com .
@@ -17,4 +21,5 @@ deployment:
     commands:
       - docker login -e $DOCKER_EMAIL -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
       - docker push bvalosek/bvalosek.com
+      - kontena app deploy
 
